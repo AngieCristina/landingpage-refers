@@ -1,0 +1,103 @@
+fieldset{
+  border: none;
+}
+.arrow-left {
+  display: flex;
+  margin-top: 20px;
+  width: 20px;
+  height: 20px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.custom-imput-form{
+  padding:15px;
+  box-sizing: border-box;
+  width: 327px;
+  height: 54px;
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  border-radius: 1096px;
+  margin-bottom: 13px;
+  margin-left:10px;
+}
+.custom-imput-large{
+  width: 664px;
+}
+.custom-imput-form:focus {
+  outline: none;
+  border: 1.09562px solid #009739;
+
+}
+.custom-imput-form:valid {
+  border: 1.09562px solid #009739;
+
+}
+.custom-imput-form-color:valid {
+  background: #EEFFF4;
+
+}
+
+.legend-form{
+  width: 387px;
+  height: 31px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24.4294px;
+  line-height: 127.9%;
+  color: #009739;
+  margin-bottom: 34px;
+}
+.p-form{
+  width: 378px;
+  height: 21px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.3589px;
+  line-height: 135.9%;
+  color: #000000;
+  margin-bottom: 34px;
+}
+.button-channel{
+  box-sizing: border-box;
+  width: 142px;
+  height: 54px;
+  background: #F1F1F1;
+  border: 1px solid #DBDBDB;
+  border-radius: 1096px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.bot-form{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-submit{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:40px 0 0 auto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  width: 239px;
+  height: 55px;
+  background: #009739;
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 27px;
+  color: #FFFFFF;
+}

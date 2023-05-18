@@ -1,0 +1,40 @@
+.counter-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.text-congrats {
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24.43px;
+  line-height: 31px;
+  text-align: center;
+  color: #000000;
+}
+.text-waiting {
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.counter-refers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.check-mark {
+  height: 102px;
+  display: flex;
+  justify-content: center;
+}
+.counter {
+  color: #009739;
+  width: 60px;
+  height: 60px;
+  font-size: 3rem;
+}

@@ -1,0 +1,30 @@
+<div class="register-content">
+  <div class="arrow-left">
+  <img routerLink="/welcome" src="assets/images/arrow-left-circle.png"> <div style="margin-left: 8px ">Regresar</div>
+  </div>
+  <div class="register-data" *ngIf="isRegisterDataVisible">
+    <div class="center-logo">
+      <img class="ahorra-welcome" src="assets/images/logo-ahorramasgo@2x%201.png">
+    </div>
+    <h2>¡Hola! Ingresa tu DNI para continuar</h2>
+    <p>Validaremos si estas registrado</p>
+    <div class="data-send">
+    <input class="dni-data" type="text" placeholder="Número de DNI" #dniInput (input)="checkDni(dniInput.value)"/>
+    <button (click)="ingresar()" [ngClass]="{ 'active': dniInput.value }">Ingresar</button>
+    </div>
+  </div>
+  <div class="confirm-register" *ngIf="!isRegisterDataVisible">
+    <img class="check-mark" src="assets/images/check-mark%201.svg">
+    <p>¡Bienvenido nuevamente!</p>
+    <div class="client-score"><img class="coin-points" src="assets/images/token%201.png"><span>12 puntos</span></div>
+    <p class="text-points">Tienes puntos obtenidos</p>
+    <div class="client-name">Erick Arrasco Guevara</div>
+    <div class="buttons-refers">
+    <button class="button-keep-refers" routerLink="/my-referrals-form">Continua para referir</button>
+    <button class="button-see-refers" routerLink="/my-referrals">Ver tus referidos</button>
+    </div>
+    </div>
+  <div>
+   <img  class="carry-man-image" src="assets/images/carry-man.jpeg">
+  </div>
+</div>

@@ -1,0 +1,148 @@
+  .register-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+  }
+  .carry-man-image{
+    width: 100vh;
+    height: 100vh;
+  }
+  .arrow-left {
+    display: flex;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+  }
+.register-data {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  flex: 1;
+}
+.ahorra-welcome {
+  width: 156px;
+  height: 76px;
+}
+.dni-data {
+  text-align: center;
+}
+.center-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  }
+  .register-data h2, .register-data p {
+    text-align: center;
+  }
+  .register-data input {
+    width: 327px;
+    height: 54px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1.09562px solid #DBDBDB;
+    border-radius: 1095.62px;
+    margin-bottom: 10px;
+  }
+  .register-data button {
+    width: 327px;
+    height: 54px;
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background: #C5C5C5;
+    box-shadow: 0px 4.38247px 4.38247px rgba(0, 0, 0, 0.1);
+    border-radius: 27.3905px;
+  }
+  .register-data button.active {
+    background-color: #009739;
+  }
+  .data-send {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px
+  }
+  .confirm-register {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    flex: 1;
+  }
+ .data-send input::placeholder {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 21px;
+   color: #BBBBBB;
+   padding:20px;
+ }
+ .check-mark {
+   height: 102px;
+   display: flex;
+   justify-content: center;
+ }
+ .client-name {
+   font-weight: 400;
+   font-size: 42.1171px;
+   line-height: 54px;
+   text-align: center;
+   color: #000000;
+ }
+.coin-points {
+  width: 36px;
+  height: 36px;
+}
+.text-points {
+  font-weight: 400;
+  font-size: 15.3589px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
+.buttons-refers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.button-keep-refers {
+  width: 327px;
+  height: 55px;
+  background: #009739;
+  box-shadow: 0px 4.38247px 4.38247px rgba(0, 0, 0, 0.1);
+  border-radius: 27px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  border: none;
+}
+.button-see-refers {
+  width: 327px;
+  height: 55px;
+  background: #0085FF;
+  box-shadow: 0px 4.38247px 4.38247px rgba(0, 0, 0, 0.1);
+  border-radius: 27px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  border: none;
+}
+.client-score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

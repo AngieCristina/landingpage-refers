@@ -1,0 +1,46 @@
+<div class="arrow-left">
+  <img routerLink="/welcome" src="assets/images/arrow-left-circle.png"> <div style="margin-left: 8px ">Regresar</div>
+</div>
+<main class="container">
+  <form>
+    <fieldset>
+      <legend class="legend-form">Ingresa los datos de tu referido</legend>
+      <p class="p-form">Ingresa el DNI para hacer la consulta del negocio</p>
+      <div>
+        <input class="custom-imput-form " type="text"  name="ruc" placeholder="Nro. RUC(opcional)" required >
+        <input class="custom-imput-form custom-imput-form-color" type="text"  name="razSocial" placeholder="Razón social/nombres" required >
+      </div>
+      <div>
+        <input class="custom-imput-form custom-imput-form-color" type="text"  name="dirFiscal" placeholder="Dirección fiscal" required>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="legend-form">Datos adicionales</legend>
+      <div>
+        <input class="custom-imput-form" type="text"  name="nomNegocio" placeholder="Nombre del negocio" required>
+        <input class="custom-imput-form" type="text"  name="conNegocio" placeholder="Contacto del negocio" required>
+      </div>
+      <div>
+        <select class="custom-imput-form" id="cargo" name="cargo" required>
+          <option value="" disabled selected hidden>Cargo de contacto</option>
+          <option value="1">Cajero</option>
+          <option value="2">Carnicero</option>
+          <option value="3">Panadero</option>
+        </select>
+        <input class="custom-imput-form " type="tel"  name="teléfono" placeholder="Teléfono" required>
+      </div>
+      <div>
+        <input class="custom-imput-form" type="email" name="email" placeholder="Correo(Opcional)" required>
+      </div>
+      <div>
+        <input class="custom-imput-form custom-imput-large" type="text" name="dirección" placeholder="Dirección del local(Válido solo para Lima metropolitana)" required>
+      </div>
+    </fieldset>
+    <div class="bot-form">
+      <div  class="legend-form">Canal de ingreso del negocio:</div>
+      <button class="button-channel">Referido</button>
+    </div>
+    <button class="button-submit" type="submit" routerLink="/counter">Enviar Referido</button>
+  </form>
+</main>
