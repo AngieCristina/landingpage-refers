@@ -8,6 +8,11 @@ import {MyReferralsFormComponent} from "./my-referrals-form/my-referrals-form.co
 
 
 const routes: Routes = [
+  {
+    path: '',
+    redirectTo: '/welcome',
+    pathMatch: 'full'
+  },
   { path: 'welcome', component: WelcomeComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'counter', component: CounterComponent },
